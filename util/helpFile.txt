@@ -1,0 +1,23 @@
+
+
+sprint01-Full-Stack 
+
+Usage: 
+
+("npm install" installs dependencies )
+("node app init --all" initializes project)
+("node app" for full help text)
+----------------------------------------------------------------------------------------------------
+sprint01-Full-Stack init --all      --> (Initialize Project) Creates Folder Structure & Config Files.
+
+sprint01-Full-Stack config --view   -->  View Contents of ./json/config.json.
+
+sprint01-Full-Stack config --reset  -->  Restore ./json/config.json To Default Values.
+
+sprint01-Full-Stack config --update -->  View Contents of ./json/config.json
+          ***Example: "node app config --update name <newName>" ***
+
+sprint01-Full-Stack token <username>-->  Generates Token for associated "username" using crc module.
+
+sprint01-Full-Stack server          -->  Creates Web Server on Port: 4000 (Unless Specified Otherwise)
+
